@@ -13,7 +13,8 @@ async function getTheme() {
     //Not all themes with no legacy mark have a theme.css file, so we need to check for it
     try {
       await axios.get(themeUrl);
-    } catch {
+    } catch(e) {
+      debugger
       if (themeUrl.indexOf("theme.css") > -1) {
         themeUrl = themeUrl.replace("theme.css", "obsidian.css");
       } else if (themeUrl.indexOf("obsidian.css") > -1) {
@@ -29,7 +30,7 @@ async function getTheme() {
       });
     } catch {}
     let skippedFirstComment = false;
-    const data = res.data.replace(themeCommentRegex, (match) => {
+    const data = res?.data.replace(themeCommentRegex, (match) => {
       if (skippedFirstComment) {
         return "";
       } else {
