@@ -63,7 +63,8 @@ ul.task-list {
 
 .sidebar {
     position: fixed;
-    top: 75px;
+    //top: 75px;
+    top: 0;
     right: 17px;
     height: 100%;
     min-width: 25px;
@@ -73,7 +74,7 @@ ul.task-list {
 
     .graph {
         width: 320px;
-        min-height: 320px;
+        //min-height: 320px;
 
         #link-graph {
             width: 320px;
@@ -128,7 +129,7 @@ ul.task-list {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    height: 87%;
+    //height: 87%;
 }
 
 .toc {
@@ -151,9 +152,9 @@ ul.task-list {
 
 .toc-container {
     font-size: 1rem;
-    max-height: 220px;
-    overflow-y: auto;
-    margin-bottom: 10px;
+    //max-height: 220px;
+    //overflow-y: auto;
+    //margin-bottom: 10px;
     border-left: 1px solid var(--text-accent);
     ul {
         list-style-type: none;
