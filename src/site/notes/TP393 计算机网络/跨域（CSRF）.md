@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/tp-393/csrf/","created":"2023-09-06T11:07:21.113+08:00","updated":"2024-06-01T10:51:21.281+08:00"}
+{"dg-publish":true,"permalink":"/TP393 计算机网络/跨域（CSRF）/","created":"2023-09-06T11:07:21.113+08:00","updated":"2024-06-01T10:51:21.281+08:00"}
 ---
 
 >source:
