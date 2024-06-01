@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/003 学习网站/JavaGuide/Java/基础/Java基础常见面试题总结(下)/异常/Checked Exception和Unchecked Exception有什么区别？/","created":"2024-05-08T10:32:26.187+08:00","updated":"2024-06-01T10:47:06.844+08:00"}
+{"dg-publish":true,"permalink":"/003 学习网站/JavaGuide/Java/基础/Java基础常见面试题总结(下)/异常/Checked Exception和Unchecked Exception有什么区别？/","dgPassFrontmatter":true,"created":"2024-05-08T10:32:26.187+08:00","updated":"2024-06-01T10:47:06.844+08:00"}
 ---
 
 **Checked Exception** 即 受检查异常 ，Java 代码在编译过程中，如果受检查异常没有被 `catch`或者`throws` 关键字处理的话，就没办法通过编译。
