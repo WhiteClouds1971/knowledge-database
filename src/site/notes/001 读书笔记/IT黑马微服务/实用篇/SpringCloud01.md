@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/001 读书笔记/IT黑马微服务/实用篇/SpringCloud01/","created":"2024-03-28T15:26:46.000+08:00","updated":"2024-06-01T09:43:11.794+08:00"}
+{"dg-publish":true,"permalink":"/001 读书笔记/IT黑马微服务/实用篇/SpringCloud01/","dgPassFrontmatter":true,"created":"2024-03-28T15:26:46.000+08:00","updated":"2024-06-01T09:43:11.794+08:00"}
 ---
 
 #微服务 #注册中心 #负载均衡
