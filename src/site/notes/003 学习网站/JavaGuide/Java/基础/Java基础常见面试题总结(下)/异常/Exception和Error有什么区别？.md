@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/003 学习网站/JavaGuide/Java/基础/Java基础常见面试题总结(下)/异常/Exception和Error有什么区别？/","dgPassFrontmatter":true,"created":"2024-05-08T10:27:46.158+08:00","updated":"2024-06-01T10:47:09.204+08:00"}
+{"dg-publish":true,"permalink":"/003/java-guide/java//java//exception-error/","dgPassFrontmatter":true,"created":"2024-05-08T10:27:46.158+08:00","updated":"2024-06-01T10:47:09.204+08:00"}
 ---
 
 在 Java 中，所有的异常都有一个共同的祖先 `java.lang` 包中的 `Throwable` 类。`Throwable` 类有两个重要的子类:
