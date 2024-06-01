@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/011-obsidian//web-page-html-export/","created":"2024-04-08T09:30:41.428+08:00","updated":"2024-06-01T10:49:15.256+08:00"}
+{"dg-publish":true,"permalink":"/011 Obsidian/插件/WebPage Html Export/","created":"2024-04-08T09:30:41.428+08:00","updated":"2024-06-01T10:49:15.256+08:00"}
 ---
 
 插件 GitHub 仓库：[GitHub - KosmosisDire/obsidian-webpage-export: Export html from single files, canvas pages, or whole vaults. Direct access to the exported HTML files allows you to publish your digital garden anywhere. Focuses on flexibility, features, and style parity.](https://github.com/KosmosisDire/obsidian-webpage-export)
