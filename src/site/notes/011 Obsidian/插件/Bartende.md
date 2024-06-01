@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/011 Obsidian/插件/Bartende/","dgPassFrontmatter":true,"created":"2024-04-08T13:29:55.782+08:00","updated":"2024-06-01T10:49:08.766+08:00"}
+{"dg-publish":true,"permalink":"/011-obsidian//bartende/","dgPassFrontmatter":true,"created":"2024-04-08T13:29:55.782+08:00","updated":"2024-06-01T10:49:08.766+08:00"}
 ---
 
 >[!info] 自定义文件夹和文件的顺序
