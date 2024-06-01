@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/003 学习网站/JavaGuide/Java/基础/Java基础常见面试题总结（中）/Object/==和equals()的区别？/","dgPassFrontmatter":true,"created":"2024-04-13T10:30:29.263+08:00","updated":"2024-06-01T10:47:39.788+08:00"}
+{"dg-publish":true,"permalink":"/003/java-guide/java//java/object/equals/","dgPassFrontmatter":true,"created":"2024-04-13T10:30:29.263+08:00","updated":"2024-06-01T10:47:39.788+08:00"}
 ---
 
 **`==`** 对于基本类型和引用类型的作用效果是不同的：
