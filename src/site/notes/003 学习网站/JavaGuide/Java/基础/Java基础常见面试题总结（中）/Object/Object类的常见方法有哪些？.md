@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/003 学习网站/JavaGuide/Java/基础/Java基础常见面试题总结（中）/Object/Object类的常见方法有哪些？/","created":"2024-04-13T10:24:39.414+08:00","updated":"2024-06-01T10:47:50.061+08:00"}
+{"dg-publish":true,"permalink":"/003 学习网站/JavaGuide/Java/基础/Java基础常见面试题总结（中）/Object/Object类的常见方法有哪些？/","dgPassFrontmatter":true,"created":"2024-04-13T10:24:39.414+08:00","updated":"2024-06-01T10:47:50.061+08:00"}
 ---
 
 Object 类是一个特殊的类，是所有类的父类。它主要提供了以下 11 个方法：
