@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/003/pdai-tech//no-sql-redis/redis-5/","created":"2024-05-30T11:24:09.988+08:00","updated":"2024-06-01T10:48:38.827+08:00"}
+{"dg-publish":true,"permalink":"/003 学习网站/PdaiTech/数据库/NoSQL-Redis/Redis入门 - 数据类型：5种基础数据类型详解/","created":"2024-05-30T11:24:09.988+08:00","updated":"2024-06-01T10:48:38.827+08:00"}
 ---
 
 >Redis所有的key（键）都是字符串。我们在谈基础数据结构时，讨论的是存储值的数据类型，主要包括常见的5种数据类型，分别是：String、List、Set、Zset、Hash
