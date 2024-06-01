@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/TP311.5 软件工程/Nginx如何代理前端页面/","created":"2024-05-06T11:49:37.353+08:00","updated":"2024-06-01T10:50:41.689+08:00"}
+{"dg-publish":true,"permalink":"/TP311.5 软件工程/Nginx如何代理前端页面/","dgPassFrontmatter":true,"created":"2024-05-06T11:49:37.353+08:00","updated":"2024-06-01T10:50:41.689+08:00"}
 ---
 
 [nginx配置反向代理前端项目\_nginx代理非/的前端项目-CSDN博客](https://blog.csdn.net/qq_39404258/article/details/105408819)
