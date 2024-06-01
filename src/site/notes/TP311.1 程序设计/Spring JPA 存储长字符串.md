@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/tp-311-1/spring-jpa/","dgPassFrontmatter":true,"created":"2023-08-03T15:29:22.350+08:00","updated":"2024-06-01T10:49:58.526+08:00"}
+{"dg-publish":true,"permalink":"/TP311.1 程序设计/Spring JPA 存储长字符串/","dgPassFrontmatter":true,"created":"2023-08-03T15:29:22.350+08:00","updated":"2024-06-01T10:49:58.526+08:00"}
 ---
 
 # Spring JPA - 映射 MySQL 的 Text 数据类型
