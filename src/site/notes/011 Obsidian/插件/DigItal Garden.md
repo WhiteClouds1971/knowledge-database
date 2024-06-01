@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/011-obsidian//dig-ital-garden/","dgPassFrontmatter":true,"created":"2024-06-01T14:43:05.886+08:00","updated":"2024-06-01T14:54:19.597+08:00"}
+{"dg-publish":true,"permalink":"/011 Obsidian/插件/DigItal Garden/","dgPassFrontmatter":true,"created":"2024-06-01T14:43:05.886+08:00","updated":"2024-06-01T14:54:19.597+08:00"}
 ---
 
 # 文件名规范
