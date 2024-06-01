@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/001/1/lesson-3-sorry-sir/","dgPassFrontmatter":true,"created":"2024-02-26T20:03:20.747+08:00","updated":"2024-06-01T10:29:25.134+08:00"}
+{"dg-publish":true,"permalink":"/001 读书笔记/新概念英语1/Lesson 3 Sorry,sir/","dgPassFrontmatter":true,"created":"2024-02-26T20:03:20.747+08:00","updated":"2024-06-01T10:29:25.134+08:00"}
 ---
 
 ##  Umbrella
