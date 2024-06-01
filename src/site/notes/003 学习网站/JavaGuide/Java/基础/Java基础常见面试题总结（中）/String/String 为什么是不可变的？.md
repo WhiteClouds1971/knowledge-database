@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/003 学习网站/JavaGuide/Java/基础/Java基础常见面试题总结（中）/String/String 为什么是不可变的？/","created":"2024-05-06T10:13:05.855+08:00","updated":"2024-06-01T10:47:58.951+08:00"}
+{"dg-publish":true,"permalink":"/003 学习网站/JavaGuide/Java/基础/Java基础常见面试题总结（中）/String/String 为什么是不可变的？/","dgPassFrontmatter":true,"created":"2024-05-06T10:13:05.855+08:00","updated":"2024-06-01T10:47:58.951+08:00"}
 ---
 
 `String` 类中使用 `final` 关键字修饰字符数组来保存字符串，~~所以 `String` 对象是不可变的。~~
