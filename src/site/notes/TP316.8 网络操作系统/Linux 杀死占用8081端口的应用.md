@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/TP316.8 网络操作系统/Linux 杀死占用8081端口的应用/","created":"2024-03-26T09:16:39.595+08:00","updated":"2024-06-01T10:51:11.123+08:00"}
+{"dg-publish":true,"permalink":"/TP316.8 网络操作系统/Linux 杀死占用8081端口的应用/","dgPassFrontmatter":true,"created":"2024-03-26T09:16:39.595+08:00","updated":"2024-06-01T10:51:11.123+08:00"}
 ---
 
 # 杀死占用8081端口的应用
