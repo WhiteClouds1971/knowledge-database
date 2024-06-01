@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/001/it//spring-cloud01/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-03-28T15:26:46.000+08:00","updated":"2024-06-01T09:18:49.616+08:00"}
+{"dg-publish":true,"permalink":"/001/it//spring-cloud01/","created":"2024-03-28T15:26:46.000+08:00","updated":"2024-06-01T09:18:49.616+08:00"}
 ---
 
 #微服务 #注册中心 #负载均衡
