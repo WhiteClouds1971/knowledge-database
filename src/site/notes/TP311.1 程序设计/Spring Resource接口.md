@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/TP311.1 程序设计/Spring Resource接口/","dgPassFrontmatter":true,"created":"2023-08-29T11:19:25.206+08:00","updated":"2024-06-01T10:50:05.931+08:00"}
+{"dg-publish":true,"permalink":"/tp-311-1/spring-resource/","dgPassFrontmatter":true,"created":"2023-08-29T11:19:25.206+08:00","updated":"2024-06-01T10:50:05.931+08:00"}
 ---
 
 # Spring Resource 接口
