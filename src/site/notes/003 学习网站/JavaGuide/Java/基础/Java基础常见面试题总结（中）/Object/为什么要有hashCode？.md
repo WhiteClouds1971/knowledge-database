@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/003 学习网站/JavaGuide/Java/基础/Java基础常见面试题总结（中）/Object/为什么要有hashCode？/","dgPassFrontmatter":true,"created":"2024-04-18T09:56:06.174+08:00","updated":"2024-06-01T10:47:42.609+08:00"}
+{"dg-publish":true,"permalink":"/003/java-guide/java//java/object/hash-code/","dgPassFrontmatter":true,"created":"2024-04-18T09:56:06.174+08:00","updated":"2024-06-01T10:47:42.609+08:00"}
 ---
 
 我们以“`HashSet` 如何检查重复”为例子来说明为什么要有 `hashCode`？
