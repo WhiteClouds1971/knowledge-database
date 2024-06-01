@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/001/it//spring-cloud02/","created":"2024-04-10T11:23:50.666+08:00","updated":"2024-06-01T09:43:13.880+08:00"}
+{"dg-publish":true,"permalink":"/001 读书笔记/IT黑马微服务/实用篇/SpringCloud02/","created":"2024-04-10T11:23:50.666+08:00","updated":"2024-06-01T09:43:13.880+08:00"}
 ---
 
 # 1. Nacos 配置管理
