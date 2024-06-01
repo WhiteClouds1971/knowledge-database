@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/tp-316-8/linux-cp-rp/","dgPassFrontmatter":true,"created":"2023-08-10T10:24:21.571+08:00","updated":"2024-06-01T10:51:17.153+08:00"}
+{"dg-publish":true,"permalink":"/TP316.8 网络操作系统/Linux 完全拷贝 cp -rp/","dgPassFrontmatter":true,"created":"2023-08-10T10:24:21.571+08:00","updated":"2024-06-01T10:51:17.153+08:00"}
 ---
 
 #linux/技巧
