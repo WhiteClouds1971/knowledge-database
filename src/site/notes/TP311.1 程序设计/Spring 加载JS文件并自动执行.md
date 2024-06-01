@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/tp-311-1/spring-js/","dgPassFrontmatter":true,"created":"2023-09-11T17:57:38.000+08:00","updated":"2024-06-01T10:49:54.922+08:00"}
+{"dg-publish":true,"permalink":"/TP311.1 程序设计/Spring 加载JS文件并自动执行/","dgPassFrontmatter":true,"created":"2023-09-11T17:57:38.000+08:00","updated":"2024-06-01T10:49:54.922+08:00"}
 ---
 
 ## Spring
