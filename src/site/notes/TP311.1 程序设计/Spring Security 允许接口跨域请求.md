@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/TP311.1 程序设计/Spring Security 允许接口跨域请求/","created":"2023-09-11T15:10:24.852+08:00","updated":"2024-06-01T10:50:08.554+08:00"}
+{"dg-publish":true,"permalink":"/TP311.1 程序设计/Spring Security 允许接口跨域请求/","dgPassFrontmatter":true,"created":"2023-09-11T15:10:24.852+08:00","updated":"2024-06-01T10:50:08.554+08:00"}
 ---
 
 #跨域
