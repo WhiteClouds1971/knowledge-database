@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/tp-312/js-html-dom/","created":"2023-09-11T15:06:47.791+08:00","updated":"2024-06-01T10:51:03.131+08:00"}
+{"dg-publish":true,"permalink":"/TP312 程序、算法语言/JS 使用HTML字符串创建DOM/","created":"2023-09-11T15:06:47.791+08:00","updated":"2024-06-01T10:51:03.131+08:00"}
 ---
 
 # 使用HTML字符串创建DOM
