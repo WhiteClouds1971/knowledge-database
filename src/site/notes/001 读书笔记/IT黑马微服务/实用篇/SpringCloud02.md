@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/001/it//spring-cloud02/"}
+{"dg-publish":true,"permalink":"/001/it//spring-cloud02/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-04-10T11:23:50.666+08:00","updated":"2024-06-01T09:19:28.597+08:00"}
 ---
 
 # 1. Nacos 配置管理
@@ -89,7 +89,6 @@ spring:
 在user-service服务中，添加一个类，读取patterrn.dateformat属性：
 
 ![Pasted image 20240411135436.png](/img/user/$/$Sys999%20Attachment/Pasted%20image%2020240411135436.png)
-
 在UserController中使用这个类代替@Value：
 
 ![Pasted image 20240411135456.png](/img/user/$/$Sys999%20Attachment/Pasted%20image%2020240411135456.png)
