@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/TP312 程序、算法语言/JS 使用 Promise 处理异步操作/","created":"2023-08-29T09:37:45.546+08:00","updated":"2024-06-01T10:51:00.564+08:00"}
+{"dg-publish":true,"permalink":"/TP312 程序、算法语言/JS 使用 Promise 处理异步操作/","dgPassFrontmatter":true,"created":"2023-08-29T09:37:45.546+08:00","updated":"2024-06-01T10:51:00.564+08:00"}
 ---
 
 # 使用 Promise 处理异步操作
