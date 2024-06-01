@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/TP311.5 软件工程/Brew 常用命令/","dgPassFrontmatter":true,"created":"2024-04-17T11:47:31.220+08:00","updated":"2024-06-01T10:50:19.033+08:00"}
+{"dg-publish":true,"permalink":"/tp-311-5/brew/","dgPassFrontmatter":true,"created":"2024-04-17T11:47:31.220+08:00","updated":"2024-06-01T10:50:19.033+08:00"}
 ---
 
 # 查看已安装应用的信息
