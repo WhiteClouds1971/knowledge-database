@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/001/1/lesson-2-is-this-your/","dgPassFrontmatter":true,"created":"2024-02-26T19:00:42.580+08:00","updated":"2024-06-01T10:29:22.114+08:00"}
+{"dg-publish":true,"permalink":"/001 读书笔记/新概念英语1/Lesson 2 Is this your...?/","dgPassFrontmatter":true,"created":"2024-02-26T19:00:42.580+08:00","updated":"2024-06-01T10:29:22.114+08:00"}
 ---
 
 >[视屏](https://www.bilibili.com/video/BV1UH4y1j7wJ?p=2&vd_source=1bfe469a264a2b5f885f412c3b094c96)
