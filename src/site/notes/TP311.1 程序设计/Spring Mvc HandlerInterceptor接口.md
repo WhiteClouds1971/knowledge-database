@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/TP311.1 程序设计/Spring Mvc HandlerInterceptor接口/","dgPassFrontmatter":true,"created":"2023-09-05T09:31:32.209+08:00","updated":"2024-06-01T10:50:03.181+08:00"}
+{"dg-publish":true,"permalink":"/tp-311-1/spring-mvc-handler-interceptor/","dgPassFrontmatter":true,"created":"2023-09-05T09:31:32.209+08:00","updated":"2024-06-01T10:50:03.181+08:00"}
 ---
 
 # HandlerInterceptor 简介
