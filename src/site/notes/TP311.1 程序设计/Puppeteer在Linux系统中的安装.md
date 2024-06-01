@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/TP311.1 程序设计/Puppeteer在Linux系统中的安装/","dgPassFrontmatter":true,"created":"2023-12-05T15:01:45.343+08:00","updated":"2024-06-01T10:49:48.852+08:00"}
+{"dg-publish":true,"permalink":"/tp-311-1/puppeteer-linux/","dgPassFrontmatter":true,"created":"2023-12-05T15:01:45.343+08:00","updated":"2024-06-01T10:49:48.852+08:00"}
 ---
 
 项目有一个需求：将Web页面打印成PDF，为了保证功能的稳定可靠。决定单独起一个安装Puppeteer的Node项目，为导出PDF或者图片提供打印服务。
