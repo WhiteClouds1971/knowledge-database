@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/tp-311-5/git-git/","dgPassFrontmatter":true,"created":"2023-07-11T16:10:44.242+08:00","updated":"2024-06-01T10:50:27.490+08:00"}
+{"dg-publish":true,"permalink":"/TP311.5 软件工程/Git 本地代码托管到 Git平台/","dgPassFrontmatter":true,"created":"2023-07-11T16:10:44.242+08:00","updated":"2024-06-01T10:50:27.490+08:00"}
 ---
 
 1. 初始化本地Git仓库
