@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/TP393 计算机网络/跨域（CSRF）/","created":"2023-09-06T11:07:21.113+08:00","updated":"2024-06-01T10:51:21.281+08:00"}
+{"dg-publish":true,"permalink":"/TP393 计算机网络/跨域（CSRF）/","dgPassFrontmatter":true,"created":"2023-09-06T11:07:21.113+08:00","updated":"2024-06-01T13:13:17.102+08:00"}
 ---
 
 >source:
@@ -69,18 +69,3 @@ CSRF通常从第三方网站发起，被攻击的网站无法防止攻击发生�
 4. 双重Cookie验证
 
 详细防御措施介绍见[前端安全系列（二）：如何防止CSRF攻击？ - 美团技术团队](https://tech.meituan.com/2018/10/11/fe-security-csrf.html)
-## anki
-
-START
-填空题
-文字: 跨域攻击的英文简称{{c1::CSRF}}
-背面额外: 
-<!--ID: 1693970100047-->
-END
-
-START
-问答题
-正面: CSRF的原理
-背面: [[TP393 计算机网络/跨域（CSRF）#^16b02b\|跨域（CSRF）#^16b02b]]
-<!--ID: 1693970185870-->
-END
