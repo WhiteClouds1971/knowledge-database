@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/tp-311-5/idea-for-mac/","created":"2024-04-15T09:43:48.124+08:00","updated":"2024-06-01T10:50:38.947+08:00"}
+{"dg-publish":true,"permalink":"/TP311.5 软件工程/Idea for mac 如何多行光标/","created":"2024-04-15T09:43:48.124+08:00","updated":"2024-06-01T10:50:38.947+08:00"}
 ---
 
 按住 Option 键然后触控板三指拖动
