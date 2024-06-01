@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/003/java-guide/java//java/object/equals-hash-code/","dgPassFrontmatter":true,"created":"2024-04-18T10:10:34.134+08:00","updated":"2024-06-01T10:47:45.308+08:00"}
+{"dg-publish":true,"permalink":"/003 学习网站/JavaGuide/Java/基础/Java基础常见面试题总结（中）/Object/为什么重写equals()时必须重写hashCode()方法？/","dgPassFrontmatter":true,"created":"2024-04-18T10:10:34.134+08:00","updated":"2024-06-01T10:47:45.308+08:00"}
 ---
 
 因为两个相等的对象的 `hashCode` 值必须是相等。也就是说如果 `equals` 方法判断两个对象是相等的，那这两个对象的 `hashCode` 值也要相等。
