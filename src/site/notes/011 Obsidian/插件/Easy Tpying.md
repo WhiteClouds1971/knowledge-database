@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/011 Obsidian/插件/Easy Tpying/","created":"2024-04-03T16:45:10.363+08:00","updated":"2024-06-01T10:49:12.359+08:00"}
+{"dg-publish":true,"permalink":"/011 Obsidian/插件/Easy Tpying/","dgPassFrontmatter":true,"created":"2024-04-03T16:45:10.363+08:00","updated":"2024-06-01T10:49:12.359+08:00"}
 ---
 
 >[Obsidian 插件：Easy Tpying 自动格式化你的中英文标点输入格式](https://pkmer.cn/Pkmer-Docs/10-obsidian/obsidian社区插件/easy-typing-obsidian/)
