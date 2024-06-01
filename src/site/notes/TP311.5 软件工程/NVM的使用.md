@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/TP311.5 软件工程/NVM的使用/","dgPassFrontmatter":true,"created":"2024-03-20T14:59:27.575+08:00","updated":"2024-06-01T10:50:44.621+08:00"}
+{"dg-publish":true,"permalink":"/tp-311-5/nvm/","dgPassFrontmatter":true,"created":"2024-03-20T14:59:27.575+08:00","updated":"2024-06-01T10:50:44.621+08:00"}
 ---
 
 > [nvm文档手册 - nvm是一个nodejs版本管理工具 - nvm中文网](https://nvm.uihtm.com)
