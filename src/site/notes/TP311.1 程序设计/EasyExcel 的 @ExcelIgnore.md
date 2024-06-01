@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/tp-311-1/easy-excel-excel-ignore/","created":"2024-04-09T10:00:52.943+08:00","updated":"2024-06-01T10:49:42.387+08:00"}
+{"dg-publish":true,"permalink":"/TP311.1 程序设计/EasyExcel 的 @ExcelIgnore/","created":"2024-04-09T10:00:52.943+08:00","updated":"2024-06-01T10:49:42.387+08:00"}
 ---
 
 #Excel #导入 #记录

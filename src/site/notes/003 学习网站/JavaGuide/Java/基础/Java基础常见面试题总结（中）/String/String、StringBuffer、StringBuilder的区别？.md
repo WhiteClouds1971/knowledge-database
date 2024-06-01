@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/003/java-guide/java//java/string/string-string-buffer-string-builder/","created":"2024-04-18T10:13:50.041+08:00","updated":"2024-06-01T10:48:01.350+08:00"}
+{"dg-publish":true,"permalink":"/003 学习网站/JavaGuide/Java/基础/Java基础常见面试题总结（中）/String/String、StringBuffer、StringBuilder的区别？/","created":"2024-04-18T10:13:50.041+08:00","updated":"2024-06-01T10:48:01.350+08:00"}
 ---
 
 # 可变性

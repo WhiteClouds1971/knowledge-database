@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/003/pdai-tech//no-sql-redis/redis/","created":"2024-05-30T09:58:18.435+08:00","updated":"2024-06-01T10:48:41.378+08:00"}
+{"dg-publish":true,"permalink":"/003 学习网站/PdaiTech/数据库/NoSQL-Redis/Redis进阶 - 消息传递：发布订阅模式详解/","created":"2024-05-30T09:58:18.435+08:00","updated":"2024-06-01T10:48:41.378+08:00"}
 ---
 
 # Redis发布订阅简介

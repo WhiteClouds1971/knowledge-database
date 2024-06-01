@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/tp-312/java-json-list-map/","created":"2023-08-29T14:09:49.428+08:00","updated":"2024-06-01T10:50:55.010+08:00"}
+{"dg-publish":true,"permalink":"/TP312 程序、算法语言/Java 读取 json 文件为 List<Map>对象/","created":"2023-08-29T14:09:49.428+08:00","updated":"2024-06-01T10:50:55.010+08:00"}
 ---
 
 ```kotlin

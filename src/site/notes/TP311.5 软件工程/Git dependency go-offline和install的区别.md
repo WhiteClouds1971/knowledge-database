@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/tp-311-5/git-dependency-go-offline-install/","created":"2023-10-20T11:12:41.093+08:00","updated":"2024-06-01T10:50:32.384+08:00"}
+{"dg-publish":true,"permalink":"/TP311.5 软件工程/Git dependency go-offline和install的区别/","created":"2023-10-20T11:12:41.093+08:00","updated":"2024-06-01T10:50:32.384+08:00"}
 ---
 
 **Maven 构建命令：`mvn -B dependency:go-offline` 和 `mvn install` 的区别**

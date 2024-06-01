@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/tp-312/java-thread-local/","created":"2023-09-04T13:36:58.432+08:00","updated":"2024-06-01T10:50:52.143+08:00"}
+{"dg-publish":true,"permalink":"/TP312 程序、算法语言/Java 的 ThreadLocal/","created":"2023-09-04T13:36:58.432+08:00","updated":"2024-06-01T10:50:52.143+08:00"}
 ---
 
 私有变量 authApplication 是一个 ThreadLocal<String?> 对象，用于在多线程环境中存储线程本地的可空字符串。该对象被命名为 "request_application"。

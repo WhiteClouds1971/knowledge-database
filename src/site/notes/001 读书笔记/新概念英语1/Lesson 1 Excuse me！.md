@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/001/1/lesson-1-excuse-me/","created":"2024-02-25T19:49:31.909+08:00","updated":"2024-06-01T10:29:15.936+08:00"}
+{"dg-publish":true,"permalink":"/001 读书笔记/新概念英语1/Lesson 1 Excuse me！/","created":"2024-02-25T19:49:31.909+08:00","updated":"2024-06-01T10:29:15.936+08:00"}
 ---
 
 ## 音标中的/sk/变/sg/

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/003/java-guide/java//java/string/string-intern/","created":"2024-05-08T10:13:07.386+08:00","updated":"2024-06-01T10:48:08.664+08:00"}
+{"dg-publish":true,"permalink":"/003 学习网站/JavaGuide/Java/基础/Java基础常见面试题总结（中）/String/String.intern方法有什么作用？/","created":"2024-05-08T10:13:07.386+08:00","updated":"2024-06-01T10:48:08.664+08:00"}
 ---
 
 `String.intern()` 是一个 native（本地）方法，其作用是将指定的字符串对象的引用保存在字符串常量池中，可以简单分为两种情况：
