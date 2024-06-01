@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/003/java-guide/java//java/object/hash-code/","created":"2024-04-13T10:37:24.966+08:00","updated":"2024-06-01T10:47:47.578+08:00"}
+{"dg-publish":true,"permalink":"/003/java-guide/java//java/object/hash-code2/","created":"2024-04-13T10:37:24.966+08:00","updated":"2024-06-01T10:47:47.578+08:00"}
 ---
 
 `hashCode()` 的作用是获取哈希码（`int` 整数），也称为散列码。这个哈希码的作用是确定该对象在哈希表中的索引位置。
