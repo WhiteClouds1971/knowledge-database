@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/tp-311-1/json-json-property/","dgPassFrontmatter":true,"created":"2024-05-21T16:52:30.030+08:00","updated":"2024-06-01T10:49:45.871+08:00"}
+{"dg-publish":true,"permalink":"/TP311.1 程序设计/Json @JsonProperty/","dgPassFrontmatter":true,"created":"2024-05-21T16:52:30.030+08:00","updated":"2024-06-01T10:49:45.871+08:00"}
 ---
 
 ```java
