@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/003/java-guide/java//java/string/string-builder/","dgPassFrontmatter":true,"created":"2024-05-06T10:25:05.592+08:00","updated":"2024-06-01T10:47:56.457+08:00"}
+{"dg-publish":true,"permalink":"/003 学习网站/JavaGuide/Java/基础/Java基础常见面试题总结（中）/String/字符串拼接用“+” 还是 StringBuilder?/","dgPassFrontmatter":true,"created":"2024-05-06T10:25:05.592+08:00","updated":"2024-06-01T10:47:56.457+08:00"}
 ---
 
 Java 语言本身并不支持运算符重载，“+”和“+=”是专门为 String 类重载过的运算符，也是 Java 中仅有的两个重载过的运算符。
