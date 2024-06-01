@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/004 精选随笔/Https的加密原理/","dgPassFrontmatter":true,"created":"2023-11-17T09:26:04.722+08:00","updated":"2024-06-01T10:48:47.075+08:00"}
+{"dg-publish":true,"permalink":"/004/https/","dgPassFrontmatter":true,"created":"2023-11-17T09:26:04.722+08:00","updated":"2024-06-01T10:48:47.075+08:00"}
 ---
 
 #http #加密
