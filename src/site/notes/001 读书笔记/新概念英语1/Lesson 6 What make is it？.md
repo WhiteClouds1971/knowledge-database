@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/001 读书笔记/新概念英语1/Lesson 6 What make is it？/","created":"2024-04-02T21:24:18.197+08:00","updated":"2024-06-01T10:29:36.560+08:00"}
+{"dg-publish":true,"permalink":"/001 读书笔记/新概念英语1/Lesson 6 What make is it？/","dgPassFrontmatter":true,"created":"2024-04-02T21:24:18.197+08:00","updated":"2024-06-01T10:29:36.560+08:00"}
 ---
 
 # What make is it ？
