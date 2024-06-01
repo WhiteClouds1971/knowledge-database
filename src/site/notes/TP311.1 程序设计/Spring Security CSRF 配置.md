@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/tp-311-1/spring-security-csrf/","dgPassFrontmatter":true,"created":"2023-09-12T10:57:11.378+08:00","updated":"2024-06-01T10:50:11.135+08:00"}
+{"dg-publish":true,"permalink":"/TP311.1 程序设计/Spring Security CSRF 配置/","dgPassFrontmatter":true,"created":"2023-09-12T10:57:11.378+08:00","updated":"2024-06-01T10:50:11.135+08:00"}
 ---
 
 # Spring Security CSRF 配置
