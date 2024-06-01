@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/tp-311-5/pm2-node/","dgPassFrontmatter":true,"created":"2023-07-14T09:11:36.684+08:00","updated":"2024-06-01T10:50:48.094+08:00"}
+{"dg-publish":true,"permalink":"/TP311.5 软件工程/Pm2 部署node后端项目/","dgPassFrontmatter":true,"created":"2023-07-14T09:11:36.684+08:00","updated":"2024-06-01T10:50:48.094+08:00"}
 ---
 
 1. 安装PM2
