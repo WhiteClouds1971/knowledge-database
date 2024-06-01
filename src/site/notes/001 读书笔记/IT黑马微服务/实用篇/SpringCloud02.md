@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/001/it//spring-cloud02/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-04-10T11:23:50.666+08:00","updated":"2024-06-01T09:19:28.597+08:00"}
+{"dg-publish":true,"permalink":"/001/it//spring-cloud02/","created":"2024-04-10T11:23:50.666+08:00","updated":"2024-06-01T09:19:28.597+08:00"}
 ---
 
 # 1. Nacos 配置管理
