@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/001/1/lesson-5-nice-to-meet-you/","dgPassFrontmatter":true,"created":"2024-02-29T20:11:33.000+08:00","updated":"2024-06-01T10:29:33.573+08:00"}
+{"dg-publish":true,"permalink":"/001 读书笔记/新概念英语1/Lesson 5 Nice to meet you/","dgPassFrontmatter":true,"created":"2024-02-29T20:11:33.000+08:00","updated":"2024-06-01T10:29:33.573+08:00"}
 ---
 
 ## Good Morning
