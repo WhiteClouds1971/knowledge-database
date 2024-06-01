@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/001/it//04-rabbit-mq/","dgPassFrontmatter":true,"created":"2024-05-22T09:11:37.451+08:00","updated":"2024-06-01T09:43:09.083+08:00"}
+{"dg-publish":true,"permalink":"/001 读书笔记/IT黑马微服务/实用篇/04 Rabbit MQ/","dgPassFrontmatter":true,"created":"2024-05-22T09:11:37.451+08:00","updated":"2024-06-01T09:43:09.083+08:00"}
 ---
 
 # 1.初识MQ
