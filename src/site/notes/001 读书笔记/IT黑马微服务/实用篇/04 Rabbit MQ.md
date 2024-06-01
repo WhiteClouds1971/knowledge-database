@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/001/it//04-rabbit-mq/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-05-22T09:11:37.451+08:00","updated":"2024-05-31T13:05:12.143+08:00"}
+{"dg-publish":true,"permalink":"/001/it//04-rabbit-mq/","created":"2024-05-22T09:11:37.451+08:00","updated":"2024-05-31T13:05:12.143+08:00"}
 ---
 
 # 1.初识MQ
