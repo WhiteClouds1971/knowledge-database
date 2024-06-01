@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/TP311.5 软件工程/Docker -d/","dgPassFrontmatter":true,"created":"2024-05-22T09:41:20.708+08:00","updated":"2024-06-01T10:50:23.601+08:00"}
+{"dg-publish":true,"permalink":"/tp-311-5/docker-d/","dgPassFrontmatter":true,"created":"2024-05-22T09:41:20.708+08:00","updated":"2024-06-01T10:50:23.601+08:00"}
 ---
 
 ```zsh
