@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/001 读书笔记/IT黑马微服务/实用篇/SpringCloud01/","dgPassFrontmatter":true,"created":"2024-03-28T15:26:46.000+08:00","updated":"2024-06-01T09:43:11.794+08:00"}
+{"dg-publish":true,"permalink":"/001 读书笔记/IT黑马微服务/实用篇/SpringCloud01/","dgPassFrontmatter":true,"created":"2024-03-28T15:26:46.000+08:00","updated":"2024-06-26T09:50:08.985+08:00"}
 ---
 
 #微服务 #注册中心 #负载均衡
@@ -499,6 +499,7 @@ spring:
 ## 临时实例和非临时实例
 
 服务注册到 Nacos 时，可以选择注册为临时或非临时实例，通过下面的配置来设置：
+
 ```yml
 spring:
   cloud:
