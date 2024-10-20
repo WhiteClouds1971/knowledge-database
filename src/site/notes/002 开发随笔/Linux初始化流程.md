@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/002 开发随笔/Linux初始化流程/","dgPassFrontmatter":true,"created":"2024-09-30T10:09:10.911+08:00","updated":"2024-10-15T17:20:43.141+08:00"}
+{"dg-publish":true,"permalink":"/002 开发随笔/Linux初始化流程/","dgPassFrontmatter":true,"created":"2024-09-30T10:09:10.911+08:00","updated":"2024-10-20T10:43:52.791+08:00"}
 ---
 
 在我们安装完 Linux 操作系统之后，我们需要对 OS 进行一些通用配置，来方便我们的使用。于本文记录一下通用的流程。
@@ -148,6 +148,18 @@ source $ZSH/oh-my-zsh.sh
 #### 将 下面文件上传到到服务器~/.oh-my-zsh/themes 文件夹中
 
 ![[taw-ys-conda.zsh-theme]]
+#### 修复 zsh 插件不存在
+
+如果登录 shell报：
+`[oh-my-zsh] plugin 'zsh-autosuggestions' not found`
+`[oh-my-zsh] plugin 'zsh-syntax-highlighting' not found`
+执行
+
+```zsh
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/plugins/zsh-syntax-highlighting
+source .zshrc
+```
 #### 重新加载终端
 
 ```zsh
