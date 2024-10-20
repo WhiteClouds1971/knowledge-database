@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/004 我的文档/011 Obsidian/Obsidian Web笔记搭建/","dgPassFrontmatter":true,"created":"2024-10-20T10:56:27.654+08:00","updated":"2024-10-20T11:16:36.664+08:00"}
+{"dg-publish":true,"permalink":"/004 我的文档/011 Obsidian/Obsidian Web笔记搭建/","dgPassFrontmatter":true,"created":"2024-10-20T10:56:27.654+08:00","updated":"2024-10-20T11:47:13.276+08:00"}
 ---
 
 > 将 Obsidian 里记录的笔记转换成 HTML 文件，发布到互联网上。
@@ -20,7 +20,9 @@
 ![Pasted image 20241020110757.png](/img/user/$/$Sys999%20Attachment/Pasted%20image%2020241020110757.png)
 ### GitHub 仓库添加Webhook
 
+>[, \_云效(Apsara Devops)-阿里云帮助中心](https://help.aliyun.com/zh/yunxiao/user-guide/code-source-trigger?spm=a2cl9.flow_devops2020_goldlog_detail.0.0.6e234c0ahG1jXV)
+
 在选择完仓库和分支后需要在 GitHub 上的仓库添加一个 Webhook，在分支发生提交后，通知云效进行持续构建。
 
-![Pasted image 20241020111530.png](/img/user/$/$Sys999%20Attachment/Pasted%20image%2020241020111530.png)
+![Pasted image 20241020114646.png](/img/user/$/$Sys999%20Attachment/Pasted%20image%2020241020114646.png)
 
