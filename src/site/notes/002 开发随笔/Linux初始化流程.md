@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/002 开发随笔/Linux初始化流程/","dgPassFrontmatter":true,"created":"2024-09-30T10:09:10.911+08:00","updated":"2024-10-20T10:43:52.791+08:00"}
+{"dg-publish":true,"permalink":"/002 开发随笔/Linux初始化流程/","dgPassFrontmatter":true,"created":"2024-09-30T10:09:10.911+08:00","updated":"2024-10-20T15:14:45.982+08:00"}
 ---
 
 在我们安装完 Linux 操作系统之后，我们需要对 OS 进行一些通用配置，来方便我们的使用。于本文记录一下通用的流程。
@@ -167,6 +167,31 @@ source ~/.zshrc
 ```
 
 ![Pasted image 20240602163113.png](/img/user/$/$Sys999%20Attachment/Pasted%20image%2020240602163113.png)
+# SELinux 和防火墙
+
+> 每当你访问不了服务的的时候，查看一下 SELinux 和防火墙是不是关闭了
+## SELinux
+### 获取当前 selinux 状态
+
+```zsh
+getenforce
+```
+
+Enforcing 为开启，Permissive 为关闭
+### 临时关闭selinux
+
+```zsh
+setenforce 0
+```
+### 永久关闭selinux
+
+```zsh
+sudo vim /etc/sysconfig/selinux
+```
+
+SELINUX=enforcing 替换为SELINUX=disabled
+
+![Pasted image 20241020151350.png](/img/user/$/$Sys999%20Attachment/Pasted%20image%2020241020151350.png)
 # 开发环境配置
 ## Node 环境
 ### NVM
