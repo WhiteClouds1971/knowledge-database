@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/001 精选文章/Obsidian Web笔记搭建/","dgPassFrontmatter":true,"created":"2024-10-20T10:56:27.654+08:00","updated":"2024-10-25T11:01:45.773+08:00"}
+{"dg-publish":true,"permalink":"/001 精选文章/Obsidian Web笔记搭建/","dgPassFrontmatter":true,"created":"2024-10-20T10:56:27.654+08:00","updated":"2024-10-25T11:17:30.937+08:00"}
 ---
 
-> 将 Obsidian 里记录的笔记转换成 HTML 文件，发布到互联网上。
+>[! summary] 将 Obsidian 里的笔记转换成 HTML 文件，发布到互联网上。
 
 主要思路是通过一个名为`DigItal Garden` 的插件将笔记转换为 node 项目，推送到 GitHub 上，在通过阿里的云效进行自动构建。然后通过 Frp 进行内网穿透供公网用户访问。
 
