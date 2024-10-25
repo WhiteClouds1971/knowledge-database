@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/001 精选文章/Obsidian Web笔记搭建/","dgPassFrontmatter":true,"created":"2024-10-20T10:56:27.654+08:00","updated":"2024-10-23T15:42:35.479+08:00"}
+{"dg-publish":true,"permalink":"/001 精选文章/Obsidian Web笔记搭建/","dgPassFrontmatter":true,"created":"2024-10-20T10:56:27.654+08:00","updated":"2024-10-25T11:01:45.773+08:00"}
 ---
 
 > 将 Obsidian 里记录的笔记转换成 HTML 文件，发布到互联网上。
@@ -161,7 +161,11 @@ sudo tar zxvf package.tgz -C dist
 
 其次我们只需要备案一级域名就可以了，剩下的二级域名不需要备案也可使用。比如我们备案了 a.com 那么 b.a.com；aa.a.com 都是可以使用 80 等端口的。
 
-备案的流程现在一般都是通过云服务商提供的服务进行备案。按照云服务商的要求填写相关信息后，等待 20 天左右就会收到工信部的备案审批通知。
+备案的流程现在一般都是通过云服务商提供的服务进行备案。按照云服务商的要求填写相关信息后，等待 5 天左右就会收到工信部的备案审批通知。
+
+最后补充一点，IPC 备案通过后。有的云服务商还需要你手动对通过 IPC 备案的域名进行过白：
+
+![Pasted image 20241025094925.png](/img/user/$/$Sys999%20Attachment/Pasted%20image%2020241025094925.png)
 # Frp 内网穿透和反向代理
 
 关于 Frp 的详细介绍和教程我之前看过一些，但是没有做过笔记。大家上网找一下教程看一下吧。我这里记录一下具体配置过程。
@@ -245,7 +249,87 @@ frp 客户端一般推荐配置在网关上，来转发整个内网的流量。�
 ![Pasted image 20241023141849.png](/img/user/$/$Sys999%20Attachment/Pasted%20image%2020241023141849.png)
 ### 具体服务配置
 
-![Pasted image 20241023154233.png](/img/user/$/$Sys999%20Attachment/Pasted%20image%2020241023154233.png)
+这里为 note 服务配置了两个穿透，一个是 http 一个是 https
 
-现在我们在公网访问 `note.whiteclouds.work` 就可以看到笔记了：
+![Pasted image 20241025105806.png](/img/user/$/$Sys999%20Attachment/Pasted%20image%2020241025105806.png)
+
+现在我们在公网访问 `http://note.whiteclouds.work` 就可以看到笔记了：
+
+![Pasted image 20241025094030.png](/img/user/$/$Sys999%20Attachment/Pasted%20image%2020241025094030.png)
 # Https 协议配置
+
+至此，我们还差最后一步，将 http 协议更换成更安全的 https 协议。关于 https 和 http 之间的区别参见 [[001 精选文章/Https的加密原理\|Https的加密原理]]。
+## 创建 SSL 证书
+
+SSL 证书可以自己创建，但是自己创建的证书并不被浏览器认可。所有我们需要去找一个 CA 机构为我们的网站颁发证书。
+
+不过好在现在大多数云服务商都提供免费的 SSL 证书服务。不过免费的证书一般的有效期都是 90 天，记得在证书过期之前重新申请证书并替换哦。
+
+具体的操作参考你的云服务商提供的教程，创建完成后把相关的证书文件下载下来：
+
+![Pasted image 20241025105106.png](/img/user/$/$Sys999%20Attachment/Pasted%20image%2020241025105106.png)
+## 上传证书
+
+将上面下载下来的证书，上传至服务器的`/etc/nginx/`
+
+```zsh
+mkdir -p /etc/nginx/cert/web-note
+cd /etc/nginx/cert/web-note
+unzip note.whiteclouds.work.zip
+```
+
+![Pasted image 20241025105006.png](/img/user/$/$Sys999%20Attachment/Pasted%20image%2020241025105006.png)
+## 修改 Nginx 配置文件
+
+将 [[001 精选文章/Obsidian Web笔记搭建#Nginx 的安装与配置\|#Nginx 的安装与配置#配置文件]]部分的配置文件修改成下面的新的配置文件
+
+```zsh
+vim /etc/nginx/conf.d/web-node-obsidian.conf
+```
+
+```txt
+server {
+    server_name  note.whiteclouds.work;
+    client_max_body_size 500M;
+    proxy_connect_timeout       6000;
+    proxy_send_timeout          6000;
+    proxy_read_timeout          6000;
+    send_timeout                6000;
+    sendfile on;
+    location / {
+        root /home/app/web-note-obsidian/dist/;
+        index index.html index.htm;
+    }
+    listen 443 ssl;
+    ssl_certificate /etc/nginx/cert/web-note/full_chain.pem;
+    ssl_certificate_key /etc/nginx/cert/web-note/private.key;
+    ssl_session_cache shared:SSL:1m;
+    ssl_session_timeout  10m;
+    ssl_ciphers ECDHE-RSA-AES128-GCM-SHA256:ECDHE:ECDH:AES:HIGH:!NULL:!aNULL:!MD5:!ADH:!RC4;
+    ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
+    ssl_prefer_server_ciphers on;
+}
+
+server {
+    if ($host = note.whiteclouds.work) {
+        return 301 https://$host$request_uri;
+    }
+
+    server_name  note.whiteclouds.work;
+    listen 80;
+    return 404;
+}
+```
+
+![Pasted image 20241025103922.png](/img/user/$/$Sys999%20Attachment/Pasted%20image%2020241025103922.png)
+## 重启测试
+
+```zsh
+nginx -t
+nginx -s reload
+systemctl restart nginx.service
+```
+
+可以看到现在已经可以通过安全的 https 协议访问笔记了：
+
+![Pasted image 20241025110104.png](/img/user/$/$Sys999%20Attachment/Pasted%20image%2020241025110104.png)
