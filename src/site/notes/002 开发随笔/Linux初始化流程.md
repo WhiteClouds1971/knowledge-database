@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/002 开发随笔/Linux初始化流程/","dgPassFrontmatter":true,"created":"2024-09-30T10:09:10.911+08:00","updated":"2024-10-25T10:27:58.246+08:00"}
+{"dg-publish":true,"permalink":"/002 开发随笔/Linux初始化流程/","dgPassFrontmatter":true,"created":"2024-09-30T10:09:10.911+08:00","updated":"2024-10-28T17:02:34.761+08:00"}
 ---
 
 在我们安装完 Linux 操作系统之后，我们需要对 OS 进行一些通用配置，来方便我们的使用。于本文记录一下通用的流程。
@@ -209,7 +209,7 @@ systemctl status firewalld
 ## 常用
 
 ```zsh
-yum install -y vim wegt unzip
+yum install -y vim wegt unzip docker
 ```
 ## Node
 
