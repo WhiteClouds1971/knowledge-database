@@ -200,7 +200,7 @@ subdomain_host = xxxx.com # 设置用于子域名的主域名
 打马赛克的地方大家自己填写并记住即可，没有过多要求。
 ### 设置 Frp 开机自启动
 
-Frp 的开机启动要稍微麻烦一点，我们需要自己编写一下启动脚本。然后通过 `systemctl` 命令启动。可以参考一下 [[004 我的文档/010 All in one 服务器/8. openvpn的搭建#设置 openservice 自启动\|8. openvpn的搭建#设置 openservice 自启动]]
+Frp 的开机启动要稍微麻烦一点，我们需要自己编写一下启动脚本。然后通过 `systemctl` 命令启动。可以参考一下 [[004 我的项目/010 All in one 服务器/8. openvpn的搭建#设置 openservice 自启动\|8. openvpn的搭建#设置 openservice 自启动]]
 #### 创建启动文件
 
 ```zsh
@@ -243,7 +243,7 @@ sudo systemctl enable frps # 自启
 ![Pasted image 20241022143457.png](/img/user/$/$Sys999%20Attachment/Pasted%20image%2020241022143457.png)
 ## Frpc 客户端配置
 
-frp 客户端一般推荐配置在网关上，来转发整个内网的流量。我是在一个虚拟机上搭建一个 openwrt 软路由作为网关，如果你对软路由搭建感兴趣可以参考 [[004 我的文档/010 All in one 服务器/7. 软路由\|7. 软路由]]。所以我用 openwrt 内置的 frp 客户端服务进行配置，因此这章节只有一些参考性，如果需要在 Linux 上配置客户端，自行百度一下。
+frp 客户端一般推荐配置在网关上，来转发整个内网的流量。我是在一个虚拟机上搭建一个 openwrt 软路由作为网关，如果你对软路由搭建感兴趣可以参考 [[004 我的项目/010 All in one 服务器/7. 软路由\|7. 软路由]]。所以我用 openwrt 内置的 frp 客户端服务进行配置，因此这章节只有一些参考性，如果需要在 Linux 上配置客户端，自行百度一下。
 ### 服务器连接配置
 
 ![Pasted image 20241023141849.png](/img/user/$/$Sys999%20Attachment/Pasted%20image%2020241023141849.png)
