@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/TP02 开发库/Puppeteer在Linux系统中的安装/","dgPassFrontmatter":true,"created":"2023-12-05T15:01:45.343+08:00","updated":"2024-06-01T10:49:48.852+08:00"}
+{"dg-publish":true,"permalink":"/TP02 开发库/Puppeteer在Linux系统中的安装/","dgPassFrontmatter":true,"created":"2023-12-05T15:01:45.343+08:00","updated":"2024-10-31T09:50:23.678+08:00"}
 ---
 
 项目有一个需求：将Web页面打印成PDF，为了保证功能的稳定可靠。决定单独起一个安装Puppeteer的Node项目，为导出PDF或者图片提供打印服务。
@@ -42,6 +42,8 @@ sudo yum install chromium
 3. 将整合好的Fonts.zip字体文件夹上传到服务器该目录（Fonts.zip早不到的话可以直接将Win系统的C:\Windows\Fonts整个压缩）。
 4. 解压缩整理一下目录
 5. 执行mkfontscale和fc-cache -fv 使字体生效
+
+Fonts.zip 可以从这里下载：[分享 - File Browser](https://fcloud.whiteclouds.work/share/sPg9gR0K)
 
 ```shell
 yum -y install fontconfig
