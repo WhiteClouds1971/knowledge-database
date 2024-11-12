@@ -1,8 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/TP01 开发组件/Selenium 部署/","dgPassFrontmatter":true,"created":"2024-10-28T16:44:36.470+08:00","updated":"2024-10-31T15:14:20.871+08:00"}
+{"dg-publish":true,"permalink":"/TP01 开发组件/Selenium 部署/","dgPassFrontmatter":true,"created":"2024-10-28T16:44:36.470+08:00","updated":"2024-10-31T15:44:40.913+08:00"}
 ---
 
->参考：[当selenium遇上docker | 晚花行乐](https://www.lfhacks.com/tech/selenium-docker/) 、[拿来直接用（java+selenium+WebDriver+chrome+docker实现爬虫）\_selenium java linux docker-CSDN博客](https://blog.csdn.net/paq6411/article/details/140814778)
 
 现在有一个项目需要使用 Selenium 来打印 PDF，为了给多个服务提供打印功能，决定单独部署一Selenium 中间间，具体部署流程记录如下。
 # 修改 Docker 镜像源
@@ -37,7 +36,7 @@ docker pull selenium/standalone-chrome
 
 我折腾了很久，挂梯子、换镜像源，反正这个镜像一直拉不下来。最后还是通过别人的电脑拉下来的，然后通过`docker save`命令导成压缩包发给我，压缩包可以在这里下载：
 
-[File Browser](https://fcloud.whiteclouds.work/share/C2vtgkfH) 密码：[](Mw%QZDaa)
+[File Browser](https://fcloud.whiteclouds.work/files/appstoragehub/obsidian-large%20-attachments/standlone-chrome-amd64.zip)
 
 下载之后，上传压缩包到服务器通过`load`命令导入镜像：
 
