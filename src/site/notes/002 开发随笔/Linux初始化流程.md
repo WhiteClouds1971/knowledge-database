@@ -1,6 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/002 开发随笔/Linux初始化流程/","dgPassFrontmatter":true,"created":"2024-09-30T10:09:10.911+08:00","updated":"2024-10-28T17:02:34.761+08:00"}
+{"dg-publish":true,"permalink":"/002 开发随笔/Linux初始化流程/","dgPassFrontmatter":true,"created":"2024-09-30T10:09:10.911+08:00","updated":"2024-11-26T16:12:06.844+08:00"}
 ---
+
+> [! tip] 尽可能的不要用 CentOS 7，centos 停止了维护有很多软件有兼容问题。比如 node v20 版本装不上
 
 在我们安装完 Linux 操作系统之后，我们需要对 OS 进行一些通用配置，来方便我们的使用。于本文记录一下通用的流程。
 # 修改 IP
@@ -34,7 +36,7 @@ service network restart
 ssh -p port username@ip 
 ```
 
-在输入密码就可以连上云服务器了。
+在输入密码就可以连上云服务器了。注意 debian 只能使用非 root 用户登陆。
 ## SSH 公钥免密登录
 ### 生成密钥对
 
@@ -45,6 +47,21 @@ ssh-keygen
 ```
 
 ![Pasted image 20240930103551.png](/img/user/$/$Sys999%20Attachment/Pasted%20image%2020240930103551.png)
+### 修改配置文件
+
+```zsh
+su - # 切换到root用户
+
+apt-get install vim
+
+vi /etc/ssh/sshd_config
+AuthorizedKeysFile      .ssh/authorized_keys .ssh/authorized_keys2
+PasswordAuthentication yes　　　　　　# 口令登录
+RSAAuthentication yes　　　　　　　　　# RSA认证
+PubkeyAuthentication yes　　　　　　　# 公钥登录
+
+systemctl restart sshd
+```
 ### 复制公钥
 
 将 local 机器上的 ~/.ssh/id_rsa.pub 里的内容复制到服务里的~/.ssh/authorized_keys 里
@@ -54,18 +71,8 @@ pbcopy < ~/.ssh/id_rsa.pub
 ```
 
 ![Pasted image 20240602155101.png](/img/user/$/$Sys999%20Attachment/Pasted%20image%2020240602155101.png)
-### 修改配置文件
 
-```zsh
-chmod 700 ~/.ssh
-
-vi /etc/ssh/sshd_config
-PasswordAuthentication yes　　　　　　# 口令登录
-RSAAuthentication yes　　　　　　　　　# RSA认证
-PubkeyAuthentication yes　　　　　　　# 公钥登录
-
-systemctl restart sshd
-```
+现在就可以通过`ssh -p 22 root@ip`直接登陆服务器了，但是注意 debian 依旧是不可以使用密码登录 root 的。
 # 更换 YUM 软件包源
 
 >CentOS Linux 7 的生命周期（EOL）于 2024 年 6 月 30 日终止。了解红帽帮助您轻松迁移的选项，包括支持第三方 Linux 迁移的红帽企业 Linux。
@@ -80,19 +87,44 @@ sudo yum makecache
 ```zsh
 yum install epel-release -y
 ```
+# 更换 apt-get 软件源
+
+```zsh
+cp /etc/apt/sources.list /etc/apt/sources.list.bak
+vim /etc/apt/sources.list
+
+```
+
+/etc/apt/sources.list 文件为阿里源：
+
+```
+# 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
+deb https://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm main contrib non-free non-free-firmware
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm main contrib non-free non-free-firmware
+
+deb https://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm-updates main contrib non-free non-free-firmware
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm-updates main contrib non-free non-free-firmware
+
+deb https://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm-backports main contrib non-free non-free-firmware
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm-backports main contrib non-free non-free-firmware
+
+# 以下安全更新软件源包含了官方源与镜像站配置，如有需要可自行修改注释切换
+deb https://security.debian.org/debian-security bookworm-security main contrib non-free non-free-firmware
+# deb-src https://security.debian.org/debian-security bookworm-security main contrib non-free non-free-firmware
+```
 # rzsz 配置
 
 我们上面在客户端和服务器之间传输文件都是通过 sftp 软件实现的，相对不方便。可以使用 lrzsz 库在命令行里直接上传和下载文件
 
 ```zsh
-yum install -y lrzsz
+apt-get install -y lrzsz
 ```
 # 命令行配置
 ## ZSH
 ### 下载包
 
 ```zsh
-yum install -y zsh
+apt-get install -y zsh
 ```
 ### 设置为默认终端
 
@@ -116,7 +148,9 @@ echo $SHELL
 ### 下载并安装
 
 ```zsh
-yum install -y git
+apt-get install -y git
+apt-get install -y curl
+
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
@@ -166,11 +200,6 @@ source ~/.zshrc
 ```
 
 ![Pasted image 20240602163113.png](/img/user/$/$Sys999%20Attachment/Pasted%20image%2020240602163113.png)
-# 扩展仓库（EPEL）
-
-```zsh
-sudo yum install -y epel-release
-```
 # SELinux 和防火墙
 
 > 每当你访问不了服务的的时候，查看一下 SELinux 和防火墙是不是关闭了🙂
@@ -213,9 +242,15 @@ yum install -y vim wegt unzip docker
 ```
 ## Node
 
+nvm 的详细使用介绍参见 [[TP01 开发组件/NVM的使用\|NVM的使用]]
+
 ```zsh
-yum install -y nodejs npm
-node -v
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+source ~/.zshrc
+
+nvm ls-remote
+nvm install v20.18.1
+nvm alias default v20.18.1
 ```
 ## npm 换源设置
 
