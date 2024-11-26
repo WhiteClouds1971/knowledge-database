@@ -4,6 +4,7 @@ const fs = require("fs");
 const crypto = require("crypto");
 const {globSync} = require("glob");
 
+
 const themeCommentRegex = /\/\*[\s\S]*?\*\//g;
 
 async function getTheme() {
