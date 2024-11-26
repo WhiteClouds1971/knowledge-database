@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/001 精选文章/Https的加密原理/","dgPassFrontmatter":true,"created":"2023-11-17T09:26:04.722+08:00","updated":"2024-06-01T10:48:47.075+08:00"}
+{"dg-publish":true,"permalink":"/001 精选文章/Https的加密原理/","dgPassFrontmatter":true,"created":"2023-11-17T09:26:04.722+08:00","updated":"2024-10-31T14:25:25.709+08:00"}
 ---
+
 
 #http #加密
 ## 为什么需要加密？
